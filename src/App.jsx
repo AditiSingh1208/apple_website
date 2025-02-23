@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import * as Sentry from '@sentry/react';
 
 const App = () => {
-  return <button onClick={() => {throw new Error("This is your first error!");}}>Break the world</button>;
   return (
     <main className="bg-black">
       <Navbar />
